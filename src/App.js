@@ -11,6 +11,14 @@ import { useSelector } from 'react-redux';
 function App() {
 	/* const { mode, colorTheme } = useContext(themeContext); */
 	const { mode, colorTheme } = useSelector(state => state.themes);
+	
+	
+	
+	
+	
+	
+	
+	
 
 	const theme = createTheme({
 		palette: {
@@ -45,5 +53,17 @@ function RoutesWithSubRoutes(route) {
 		/>
 	);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default App;
